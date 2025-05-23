@@ -1,0 +1,14 @@
+Télécharger le projet git : git clone https://github.com/EnzoVandepoele/mongoMC.git
+Lancer Docker Desktop
+Ouvrez un terminal PS dans le dossier du projet
+Créer le conteneur Docker : docker run -d --name mongoMC -p 27017:27017 -v ${PWD}:/data mongo
+
+Si message …The container name "/mongoMC" is already in use by container…
+	-> docker stop mongoMC; docker rm mongoMC
+Sinon continuer
+
+Importer le jeu de données : docker exec -it mongoMC mongoimport --db itemsDB --collection itemBlock --file /data/item_data.json --jsonArray
+Rentrer dans la base Mongo : docker exec -it mongoMC mongosh
+
+Rentrer dans la database : use itemsDB;
+Vous pouvez maintenant faire vos tests. Exemple : db.itemBlock.find().limit(3).pretty()
