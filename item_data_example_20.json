@@ -1,0 +1,122 @@
+[
+  {
+    "name": "acacia_planks",
+    "category": "building_blocks",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "acacia_boat",
+    "category": "transport",
+    "stack_limit": 1,
+    "is_block": false
+  },
+  {
+    "name": "diamond_sword",
+    "category": "weapons",
+    "stack_limit": 1,
+    "is_block": false
+  },
+  {
+    "name": "oak_log",
+    "category": "building_blocks",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "torch",
+    "category": "decorations",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "crafting_table",
+    "category": "utility",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "bread",
+    "category": "food",
+    "stack_limit": 64,
+    "is_block": false
+  },
+  {
+    "name": "iron_ingot",
+    "category": "materials",
+    "stack_limit": 64,
+    "is_block": false
+  },
+  {
+    "name": "arrow",
+    "category": "combat",
+    "stack_limit": 64,
+    "is_block": false
+  },
+  {
+    "name": "stone_pickaxe",
+    "category": "tools",
+    "stack_limit": 1,
+    "is_block": false
+  },
+  {
+    "name": "furnace",
+    "category": "utility",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "water_bucket",
+    "category": "tools",
+    "stack_limit": 1,
+    "is_block": false
+  },
+  {
+    "name": "oak_door",
+    "category": "building_blocks",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "stick",
+    "category": "materials",
+    "stack_limit": 64,
+    "is_block": false
+  },
+  {
+    "name": "ender_pearl",
+    "category": "transport",
+    "stack_limit": 16,
+    "is_block": false
+  },
+  {
+    "name": "bucket",
+    "category": "tools",
+    "stack_limit": 16,
+    "is_block": false
+  },
+  {
+    "name": "bed",
+    "category": "utility",
+    "stack_limit": 1,
+    "is_block": true
+  },
+  {
+    "name": "redstone",
+    "category": "materials",
+    "stack_limit": 64,
+    "is_block": false
+  },
+  {
+    "name": "stone_bricks",
+    "category": "building_blocks",
+    "stack_limit": 64,
+    "is_block": true
+  },
+  {
+    "name": "glass",
+    "category": "building_blocks",
+    "stack_limit": 64,
+    "is_block": true
+  }
+]
